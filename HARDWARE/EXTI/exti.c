@@ -1,6 +1,5 @@
 #include "exti.h"
 #include "led.h"
-#include "key.h"
 #include "delay.h"
 #include "usart.h"
 #include "stm32f10x_exti.h"

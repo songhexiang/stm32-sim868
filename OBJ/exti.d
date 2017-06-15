@@ -14,7 +14,6 @@
 ..\obj\exti.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\exti.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\exti.o: ..\USER\led.h
-..\obj\exti.o: ..\HARDWARE\KEY\key.h
 ..\obj\exti.o: ..\SYSTEM\delay\delay.h
 ..\obj\exti.o: ..\SYSTEM\usart\usart.h
 ..\obj\exti.o: D:\MDK5.14\ARM\ARMCC\Bin\..\include\stdio.h

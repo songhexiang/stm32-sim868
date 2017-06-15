@@ -17,7 +17,6 @@
 ..\obj\sim900a.o: D:\MDK5.14\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\sim900a.o: ..\SYSTEM\delay\delay.h
 ..\obj\sim900a.o: D:\MDK5.14\ARM\ARMCC\Bin\..\include\string.h
-..\obj\sim900a.o: ..\HARDWARE\KEY\key.h
 ..\obj\sim900a.o: ..\HARDWARE\USART2\usart2.h
 ..\obj\sim900a.o: ..\HARDWARE\OLED\oled.h
 ..\obj\sim900a.o: D:\MDK5.14\ARM\ARMCC\Bin\..\include\stdlib.h

@@ -564,13 +564,12 @@ ARM Macro Assembler    Page 9
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -IC:
-\Users\Administrator\Desktop\定时通过GPRS发送GPS数据(GPS独立串口)\USER\RTE -ID:
-\MDK5.14\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -ID:\MDK5.14\ARM\PACK\Keil\STM3
-2F1xx_DFP\2.1.0 -ID:\MDK5.14\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include -
--predefine="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine=
-"STM32F10X_HD SETA 1" --list=.\startup_stm32f10x_hd.lst ..\CORE\startup_stm32f1
-0x_hd.s
+ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -ID:
+\git_repo\stm32-sim868\USER\RTE -ID:\MDK5.14\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Inc
+lude -ID:\MDK5.14\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0 -ID:\MDK5.14\ARM\PACK\Keil\
+STM32F1xx_DFP\2.1.0\Device\Include --predefine="__UVISION_VERSION SETA 514" --p
+redefine="_RTE_ SETA 1" --predefine="STM32F10X_HD SETA 1" --list=.\startup_stm3
+2f10x_hd.lst ..\CORE\startup_stm32f10x_hd.s
 
 
 
