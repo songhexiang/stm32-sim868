@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"..\obj\main.o"
+"..\obj\stm32f10x_it.o"
+"..\obj\system_stm32f10x.o"
+"..\obj\timer.o"
+"..\obj\usart2.o"
+"..\obj\exti.o"
+"..\obj\key.o"
+"..\obj\gpio.o"
+"..\obj\delay.o"
+"..\obj\sys.o"
+"..\obj\usart.o"
+"..\obj\core_cm3.o"
+"..\obj\startup_stm32f10x_hd.o"
+"..\obj\misc.o"
+"..\obj\stm32f10x_gpio.o"
+"..\obj\stm32f10x_rcc.o"
+"..\obj\stm32f10x_usart.o"
+"..\obj\stm32f10x_tim.o"
+"..\obj\stm32f10x_dma.o"
+"..\obj\stm32f10x_exti.o"
+"..\obj\stm32f10x_spi.o"
+"..\obj\sim900a.o"
+--strict --scatter "..\OBJ\niren_sim868.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\niren_sim868.map" -o ..\OBJ\niren_sim868.axf
