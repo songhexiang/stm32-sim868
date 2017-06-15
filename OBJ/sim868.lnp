@@ -5,7 +5,6 @@
 "..\obj\timer.o"
 "..\obj\usart2.o"
 "..\obj\exti.o"
-"..\obj\key.o"
 "..\obj\gpio.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
@@ -21,7 +20,7 @@
 "..\obj\stm32f10x_exti.o"
 "..\obj\stm32f10x_spi.o"
 "..\obj\sim900a.o"
---strict --scatter "..\OBJ\niren_sim868.sct"
+--strict --scatter "..\OBJ\sim868.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list ".\niren_sim868.map" -o ..\OBJ\niren_sim868.axf
+--list ".\sim868.map" -o ..\OBJ\sim868.axf
